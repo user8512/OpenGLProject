@@ -1,5 +1,0 @@
-D:/Coding/Code/OpenGLProject/build/CMakeFiles/glad.dir
-D:/Coding/Code/OpenGLProject/build/CMakeFiles/stb_image.dir
-D:/Coding/Code/OpenGLProject/build/CMakeFiles/OpenGLProject.dir
-D:/Coding/Code/OpenGLProject/build/CMakeFiles/edit_cache.dir
-D:/Coding/Code/OpenGLProject/build/CMakeFiles/rebuild_cache.dir

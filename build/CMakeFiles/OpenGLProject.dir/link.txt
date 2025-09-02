@@ -1,3 +1,0 @@
-D:\Coding\cmake-3.24.2\bin\cmake.exe -E rm -f CMakeFiles\OpenGLProject.dir/objects.a
-D:\Coding\mingw64\bin\ar.exe qc CMakeFiles\OpenGLProject.dir/objects.a @CMakeFiles\OpenGLProject.dir\objects1.rsp
-g++ -Wl,--whole-archive CMakeFiles\OpenGLProject.dir/objects.a -Wl,--no-whole-archive -o OpenGLProject.exe -Wl,--out-implib,libOpenGLProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGLProject.dir\linklibs.rsp
