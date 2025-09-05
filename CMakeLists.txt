@@ -20,7 +20,7 @@ add_library(stb_image src/image.cpp)
 
 # 添加可执行文件
 # add_executable(${PROJECT_NAME} src/box.cpp)
-add_executable(${PROJECT_NAME} src/light.cpp)
+add_executable(${PROJECT_NAME} src/multi_lights.cpp)
 
 # 链接库
 target_link_libraries(${PROJECT_NAME}
