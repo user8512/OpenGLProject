@@ -64,7 +64,7 @@ int main()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader ourShader("../shader/box.vs", "../shader/box.fs"); 
+    Shader ourShader("../shader/box/box.vs", "../shader/box/box.fs"); 
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

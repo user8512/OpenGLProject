@@ -25,7 +25,8 @@ add_library(stb_image src/image.cpp)
 # add_executable(${PROJECT_NAME} src/load_mesh.cpp)
 # add_executable(${PROJECT_NAME} src/blending.cpp)
 # add_executable(${PROJECT_NAME} src/frame_buffer.cpp)
-add_executable(${PROJECT_NAME} src/skybox.cpp)
+# add_executable(${PROJECT_NAME} src/skybox.cpp)
+add_executable(${PROJECT_NAME} src/instancing.cpp)
 
 # 链接库
 target_link_libraries(${PROJECT_NAME}

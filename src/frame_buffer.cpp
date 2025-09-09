@@ -80,8 +80,8 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("../shader/frame.vs", "../shader/frame.fs");
-    Shader screenShader("../shader/screen.vs", "../shader/screen.fs");
+    Shader shader("../shader/frame_buffer/frame.vs", "../shader/frame_buffer/frame.fs");
+    Shader screenShader("../shader/frame_buffer/screen.vs", "../shader/frame_buffer/screen.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

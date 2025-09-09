@@ -80,7 +80,7 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("../shader/blending.vs", "../shader/blending.fs");
+    Shader shader("../shader/blending/blending.vs", "../shader/blending/blending.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
