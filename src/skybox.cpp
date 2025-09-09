@@ -221,10 +221,10 @@ int main()
     skyboxShader.setInt("skybox", 0);
 
     modelShader.use();
-    shader.setInt("texture_diffuse1", 0);
-    shader.setInt("texture_specular1", 1);
-    shader.setInt("texture_reflection1", 2); 
-    shader.setInt("skybox", 3);
+    modelShader.setInt("texture_diffuse1", 0);
+    modelShader.setInt("texture_specular1", 1);
+    modelShader.setInt("texture_reflection1", 2); 
+    modelShader.setInt("skybox", 3);
 
 
     // render loop

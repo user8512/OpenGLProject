@@ -15,7 +15,7 @@ void main()
 {
     // 1. 获取基础材质属性
     vec3 diffuseColor = texture(texture_diffuse1, TexCoords).rgb;
-    float specularIntensity = texture(texture_specular1, TexCoords).r;
+    float specularIntensity = texture(texture_specular1, TexCoords).a;
     float reflectionIntensity = texture(texture_reflection1, TexCoords).r;
     
     // 2. 计算视线方向和表面法线
